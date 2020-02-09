@@ -13,7 +13,7 @@ requirements: `opencv-python==4.2.0.32`,`pytesseract==0.3.2`
 
 - open terminal
 
-- change the directory to the folder docker
+- change the directory to the folder `docker`
 
 - `pip install assignment_mycujoo-0.0.1.tar.gz`
 
@@ -24,13 +24,18 @@ requirements: `opencv-python==4.2.0.32`,`pytesseract==0.3.2`
 
 ## Executing the code with docker
 
-We need to build the docker image. Once built, we can run it in the folder executions.
+We need to build the docker image. Once built, we can run it in the folder `executions`.
 
 ### Build docker image:
+
 open terminal
-change the directory  to the folder docker
-docker build -t mycujoo_image .
+
+- change the directory to the folder `docker`
+
+- `docker build -t mycujoo_image .`
 
 ### Run docker image
-change the directory  to the folder executions
-docker run -it --mount src="$(pwd)",target=/work_dir,type=bind mycujoo_image
+
+change the directory to the folder `executions`
+
+`docker run -it --mount src="$(pwd)",target=/work_dir,type=bind mycujoo_image`
