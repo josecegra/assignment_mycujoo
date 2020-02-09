@@ -24,11 +24,9 @@ requirements: `opencv-python==4.2.0.32`,`pytesseract==0.3.2`
 
 ## Executing the code with docker
 
-We need to build the docker image. Once built, we can run it in the folder `executions`.
-
 ### Build docker image:
 
-open terminal
+- open terminal
 
 - change the directory to the folder `docker`
 
@@ -36,6 +34,6 @@ open terminal
 
 ### Run docker image
 
-change the directory to the folder `executions`
+- change the directory to the folder `executions`
 
-`docker run -it --mount src="$(pwd)",target=/work_dir,type=bind mycujoo_image`
+- `docker run -it --mount src="$(pwd)",target=/work_dir,type=bind mycujoo_image`
