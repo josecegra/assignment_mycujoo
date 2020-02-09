@@ -1,25 +1,25 @@
 # assignment_mycujoo
 
-´src´: folder where the source code is
+`src`: folder where the source code is
 
-'docker': folder for creating a docker image (it includes the python package assignment_mycujoo-0.0.1.tar.gz)
+`docker`: folder for creating a docker image (it includes the python package `assignment_mycujoo-0.0.1.tar.gz`)
 
-For the execution of the code it is necessary to create a folder (let’s name it executions) with the file oriental_picture.png inside.
+For the execution of the code it is necessary to create a folder (let’s name it `executions`) with the file `oriental_picture.png` inside.
 
 
 ## Executing the code with python
 
-requirements: opencv-python==4.2.0.32,pytesseract==0.3.2 
+requirements: `opencv-python==4.2.0.32`,`pytesseract==0.3.2` 
 
-open terminal
+- open terminal
 
-change the directory to the folder docker
+- change the directory to the folder docker
 
-pip install assignment_mycujoo-0.0.1.tar.gz
+- `pip install assignment_mycujoo-0.0.1.tar.gz`
 
-change the directory to the folder executions
+- change the directory to the folder `executions`
 
-run_assignment_mycujoo
+- `run_assignment_mycujoo`
 
 
 ## Executing the code with docker
