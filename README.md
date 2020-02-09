@@ -1,8 +1,8 @@
 # assignment_mycujoo
 
-src: folder where the source code is
+´src´: folder where the source code is
 
-docker: folder for creating a docker image (it includes the python package assignment_mycujoo-0.0.1.tar.gz)
+'docker': folder for creating a docker image (it includes the python package assignment_mycujoo-0.0.1.tar.gz)
 
 For the execution of the code it is necessary to create a folder (let’s name it executions) with the file oriental_picture.png inside.
 
