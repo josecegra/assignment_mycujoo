@@ -8,7 +8,7 @@ setup(
     packages=['src'],
     include_package_data=True,
     install_requires=[
-        "opencv-python==4.2.0.32",
+        "opencv-python==4.8.1.78",
         "pytesseract==0.3.2"
 
     ],
